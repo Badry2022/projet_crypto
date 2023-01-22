@@ -1,0 +1,18 @@
+pipeline {
+  agent any
+  triggers {
+    cron('*/5 * * * *')
+  }
+  stages {
+    stage('version') {
+      steps {
+        bat 'python --version'
+      }
+    }
+    stage('read') {
+      steps {
+        bat 'python code/read_data_mongo_atlas.py'
+      }
+    }
+  }
+}

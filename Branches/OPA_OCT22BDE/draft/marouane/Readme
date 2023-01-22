@@ -1,0 +1,17 @@
+#####################Preparation des données###################
+DataFrame preparation run time :  1.2096898555755615
+Nombre de lignes dans le dataframe :  10000
+##############
+liste des documents preparation run time :  0.7317583560943604
+Nombre de documents dans la liste :  10000
+#######################Test Lecture#####################
+#####Nombre d'observations = 10000
+MongoDB run time :  0.5235908031463623
+MongoDB storage :  0.19737815856933594
+##############
+SQL run time :  0.36328125
+SQL storage :  0.0
+##############
+MongoDB run time one element :  11.754369258880615
+##############
+SQL run time one element :  67.74348187446594

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+html {
+    background-color: #10151B;
+    background: url(background-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+html.players {
+    background-image: url(background-players.jpg);
+}
+html.teams {
+    background-image: url(background-teams.jpg);
+}
+
+.backlink {
+    position: absolute;
+    top: 44px;
+    left: 40px;
+    font-size: 32px;
+    color: #ff983d;
+}
+.backlink a {
+    color: inherit;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+  
+h1 {
+    line-height: 120%;
+    color: #ff983d;
+    font-weight: 900;
+    font-size: 100px;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+  
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 581px;
+    height: 50%;
+}
+  
+.btn {
+    margin: 0 auto;
+    width: 350px;
+    height: 60px;
+    padding: 6px 0 0 3px;
+    border: 2px solid #ff983d;
+    border-radius: 2px;
+    background: none;
+    font-size: 16px;
+    line-height: 54px;
+    color: #fff;
+    letter-spacing: .25em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: background .4s, color .4s;
+    transition: background .4s, color .4s;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    background: #ff983d;
+    color: #10151B;
+}
+
+a .btn {
+    text-decoration: none;
+}
+
+html.page h1 {
+    font-size: 64px;
+    margin: 30px 0;
+}
+html.page table.main {
+    margin: auto
+}
+html.page table.main th {
+    color: #ff983d;
+    font-size: 150%;
+    font-weight: normal;
+    padding-bottom: 0.5em;
+}
+html.page table.main td {
+    padding: 0 20px
+}
+
+html.page .Select {
+    width: 200px
+}
+
+.players #comparison-table table {
+    margin: auto;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.players #comparison-table {
+    margin-top: 20px;
+}
+
+.players #comparison-table td {
+    width: 200px;
+    padding: 0 20px;
+}
+
+.players #comparison-table .label {
+    color: #ff983d;
+    width: auto;
+    padding: 0
+}
+
+.players #comparison-table .label.left {
+    text-align: right;
+}
+
+.players #comparison-table .label.right {
+    text-align: left;
+}
+
+.teams #graph-result-wrapper {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    opacity: 0.95;
+}
+
+.teams #graph-result-wrapper.hidden {
+    display: none;
+}
+.teams #graph-result-wrapper.visible {
+    display: block;
+}
+
+.teams #slider-position {
+    padding: 0px 25px 25px;
+    width: 430px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.teams #slider-position .rc-slider-mark-text {
+    color: #ff983d;
+}
+
+.teams #slider-position .rc-slider-mark-text-active {
+    color: #ff983d;
+    font-weight: bold;
+}
+
+.teams #slider-position .rc-slider-handle, .teams #slider-position .rc-slider-dot-active {
+    border-color: #ff983d;
+}
+
+.teams #slider-position .rc-slider-track {
+    background-color: #ff983d;
+}
